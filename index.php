@@ -1,0 +1,8 @@
+<?php
+session_start();
+require_once 'config.php';
+
+// Selalu redirect ke halaman login terlebih dahulu
+header('Location: login.php');
+exit();
+?>
